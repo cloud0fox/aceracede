@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# object: http://ogp.me/ns/object#">
+    
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>투발라 아이템을 강화해보자 | [PrimeBD]</title>
+<meta name="keywords" content="투발라 아이템을 강화해보자 | [PrimeBD]">
+<meta name="description" content="투발라 아이템을 강화해보자 | [PrimeBD]">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="투발라 아이템을 강화해보자 | [PrimeBD]" />
+<meta property="og:description" content="검은사막 [PrimeBD] | 투발라 아이템을 강화해보자" />
+<meta property="og:url" />
+<meta property="og:image" content="https://i.ibb.co/XybXXvn/image.png" />
+<meta property="og:image:width" content="0" />
+<meta property="og:image:height" content="0" />
+
+<meta http-equiv="content-language" content="ko" />
+
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="16x16">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="32x32">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="48x48">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="64x64">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="114x114">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="128x128">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="256x256">
+
+<link rel="alternate" hreflang="ko" href="https://www.kr.playblackdesert.com/ko-KR" />
+<link rel="alternate" hreflang="en" href="https://www.kr.playblackdesert.com/en-US" />
+<link rel="alternate" hreflang="de" href="https://www.kr.playblackdesert.com/de-DE" />
+<link rel="alternate" hreflang="fr" href="https://www.kr.playblackdesert.com/fr-FR" />
+<link rel="alternate" hreflang="es" href="https://www.kr.playblackdesert.com/es-ES" />
+
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+
+
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/global_static/font/web/font.css?v=637895341527022090" />
+    
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/common/reset.css?v=637895341527022090" />
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/common/common.css?v=637895341527022090" />
+
+
+    
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/lib/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/portal/gameinfo.css?v=637895341527022090" />
+
+
+    
+    
+
+<script>
+    var _abyss = window._abyss = window._abyss || {};
+    _abyss.api = {
+        Http: {
+            Account: "https://account.pearlabyss.com/ko-KR"
+            , AccountJoin: "/Login/Pearlabyss?_returnUrl=https://account.pearlabyss.com/ko-KR/Member/Join"
+            , AccountChange: "/Login/Pearlabyss?_returnUrl=https://account.pearlabyss.com/ko-KR/Member/OauthChange"
+            , Portal: ""
+            , Payment : "https://payment.kr.playblackdesert.com/ko-KR"
+            , authCookieDoamin: "kr.playblackdesert.com"
+            , FingerApi : "/Api/Finger"
+        }
+        , isLogin: false
+        , cultureCode: "ko-KR"
+        , serviceType: "kr"
+    };
+</script>
+
+<script src="https://s1.pearlcdn.com/KR/contents/js/lib/sha512.min.js"></script>
+<script src="https://s1.pearlcdn.com/KR/contents/js/lib/fingerprint2.min.js"></script>
+<script>
+    var _fingerResult = '';
+    var _fingerOptions = {
+        fonts: { extendedJsFonts: true },
+        extraComponents: [
+            {
+                key: 'networkConnection',
+                getData: function (done) {
+                    var networkConnection = !!navigator ? !!navigator.connection ? navigator.connection : '' : '';
+                    done(networkConnection);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'pixelDepth',
+                getData: function (done) {
+                    var pixelDepth = !!screen ? !!screen.pixelDepth ? screen.pixelDepth : '' : '';
+                    done(pixelDepth);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'javaEnabled',
+                getData: function (done) {
+                    var javaEnabled = !!navigator ? !!navigator.javaEnabled() ? navigator.javaEnabled() : false : false;
+                    done(javaEnabled);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'maxTouchPoints',
+                getData: function (done) {
+                    var maxTouchPoints = !!navigator ? !!navigator.maxTouchPoints ? navigator.maxTouchPoints : 1000 : 1000;
+                    done(maxTouchPoints);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'keyboardLayout',
+                getData: function (done) {
+                    !!navigator ? !!navigator.keyboard ? !!navigator.keyboard.getLayoutMap() ? navigator.keyboard.getLayoutMap().then(function (key) { done(key); }) : done(0) : done(0) : done(0);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'gamePadConnection',
+                getData: function (done) {
+                    var gamePadConnection = !!navigator ? !!navigator.getGamepads() ? navigator.getGamepads() : [] : [];
+                    done(gamePadConnection);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'preferredLanguages',
+                getData: function (done) {
+                    var preferredLanguages = !!navigator ? !!navigator.languages ? navigator.languages : '' : '';
+                    done(preferredLanguages);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'Vibrate',
+                getData: function (done) {
+                    var isVibrate = !!navigator ? !!navigator.vibrate(1) ? navigator.vibrate(1) : false : false;
+                    done(isVibrate);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'ServiceWorker',
+                getData: function (done) {
+                    var isServiceWorker = !!navigator ? !!navigator.serviceWorker ? navigator.serviceWorker : '' : '';
+                    done(isServiceWorker);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'ClientHintsData',
+                getData: function (done) {
+                    navigator.userAgentData.getHighEntropyValues([
+                        "platform",
+                        "platformVersion",
+                        "architecture",
+                        "model",
+                        "uaFullVersion",
+                        "fullVersionList"
+                    ]).then(function (res) {
+                        done(res);
+                    });
+                },
+                pauseBefore: false
+            },
+        ]
+        //excludes: { screenResolution: true, colorDepth: true, availableScreenResolution: true, touchSupport: true }
+    }
+    var postAjax = function (url, data, success) {
+        var params = typeof data == 'string' ? data : Object.keys(data).map(function (k) { return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }).join('&');
+        var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        xhr.open('POST', url);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState > 3 && xhr.status == 200) { success(xhr.responseText); }
+        };
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(params);
+        return xhr;
+    }
+
+    var fingerPrinting = function () {
+        try {
+            Fingerprint2.get(_fingerOptions, function (components) {
+                _fingerResult = hex_sha512(components.map(function (pair) { return pair.value }).join()).toString();
+                var filteredComponents = components.filter(function (pair) { return pair.key !== 'canvas' && pair.key !== 'webgl' });
+                var data = { "_fingerResult": _fingerResult, "_fingerComponents": filteredComponents.map(function (pair) { return pair.key + ' : ' + pair.value }).join() }
+                postAjax(_abyss.api.Http.FingerApi, data, function () {});
+            });
+        } catch(error) {
+            console.log(error);
+        }
+    }
+    if (window.requestIdleCallback) {
+        requestIdleCallback(function () {
+            fingerPrinting();
+        })
+    } else {
+        setTimeout(function () {
+            fingerPrinting();
+        }, 500)
+    }
+</script>
+
+
+        <script data-cookieconsent="ignore">
+        var _trackingCallback = function (result) {
+            if (-1 === result.resultCode) {
+                console.warn('Send PATracking Error');
+            }
+        };
+
+        (function () {
+            var isEmpty = function (data) {
+                var result = true;
+                try {
+                    data = data || null || undefined || '';
+
+                    if (typeof data == 'object') {
+                        data = data.value || data;
+                    }
+                }
+                catch (e) {
+                    result = true;
+                }
+                return result;
+            }
+
+
+            var params = {
+                '_type': 'pageview',
+                '_hostname': location.host,
+                '_path': location.pathname + location.search,
+                '_title' : document.title
+            };
+
+            var paramsStringfy = Object.keys(params).map(function(key){
+                return encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
+            }).join('&');
+
+            var trackCallback = function (data) {
+                //console.log(data);
+            }
+
+            // refer override
+            if (!isEmpty(document.referrer)) {
+                params['_referer'] = document.referrer;
+            }
+
+            try {
+                var script = document.createElement('script');
+                script.src = 'https://www.kr.playblackdesert.com/Api/SendGATracking?callback=_trackingCallback&' + paramsStringfy;
+                document.getElementsByTagName('head')[0].appendChild(script);
+            } catch (e) {
+                console.warn('Tracking Error');
+            }
+
+
+        })();
+
+        </script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158717427-3"></script>
+            <script>
+                (function () {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-158717427-3');
+                })();
+            </script>
+            <script data-cookieconsent="ignore">
+            var _trackingGACallback = function (result) {
+                if (-1 === result.resultCode) {
+                    console.warn('Send PATracking Error');
+                }
+            };
+
+            (function () {
+                var isEmpty = function (data) {
+                    var result = true;
+                    try {
+                        data = data || null || undefined || '';
+
+                        if (typeof data == 'object') {
+                            data = data.value || data;
+                        }
+                    }
+                    catch (e) {
+                        result = true;
+                    }
+                    return result;
+                }
+
+                if (location.host.indexOf('kr.playblackdesert.com') < 0) {
+                    return;
+                }
+
+                var params = {
+                    'v' : '1',
+                    't' : 'pageview',
+                    'tid' : 'UA-158717427-4',
+                    'cid' : 'RD6G18SALJUX4TC59RT6',
+                    'dh' : location.host,
+                    'dp' : location.pathname + location.search,
+                    'dt' : document.title,
+                    'ua' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30',
+                    'cs' : '',
+                    'cm' : '',
+                    'cn' : '',
+                    'cc' : '',
+                    'uip' : '175.113.15.98'
+                };
+
+                // refer override
+                if (!isEmpty(document.referrer)) {
+                    params['dr'] = document.referrer;
+                }
+
+                var paramsStringfy = Object.keys(params).map(function(key){
+                    return encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
+                }).join('&');
+
+
+                try {
+                    var xhttp = new XMLHttpRequest();
+
+                    xhttp.open('POST', 'https://www.google-analytics.com/collect?v=1&tid=UA-158717427-4', true);
+                    xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                    xhttp.send(paramsStringfy);
+
+                } catch (e) {
+                    console.warn('AJAX Tracking Error');
+                }
+            })();
+            </script>
+
+
+
+    <!-- Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
+        <!-- Google Tag manager-->
+        <!-- END Google Tag manager-->
+
+
+<header class="header_wrap">
+    <div class="header">
+        <h1 class="logo">
+            <a href="https://cloud0fox.github.io/aceracede/Index.html">
+                <img src="https://i.ibb.co/XybXXvn/image.png" alt="검은사막 리마스터" width="150px" height="50px">
+            </a>
+        </h1>
+        <button type="button" class="btn_all_menu">
+            <i class="blind">전체메뉴</i>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav>
+            <a href="https://cloud0fox.github.io/aceracede/Index.html" class="btn_mob_logo bdo_kr">
+                <img src="https://i.ibb.co/XybXXvn/image.png" alt="검은사막 리마스터" width="150px" height="50px">
+            </a>
+            <ul class="header_menu_wrap">
+                        <li class="node1 js-headerLeftMenus visible">
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/game_introduction/Game_Features.html" target="_self" data-navregexp="\.playblackdesert\.com\/gameinfo\/feature[\/]?" class="left_menu_link">
+                <span class="menu_underline">게임 소개</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">게임 소개</a>
+            <div class="sub_menu">
+                <ul>
+                                <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/game_introduction/Game_Features.html" data-navregexp="\.playblackdesert\.com\/gameinfo\/feature[\/]?" target="_self" class="">
+                    게임 특징
+                </a>
+            </li>
+            <li id="s02">
+                <a href="https://cloud0fox.github.io/aceracede/game_introduction/Adventurer_Guide.html" data-navregexp="\.playblackdesert\.com\/wiki[\/]?" target="_self" class="">
+                    모험가 가이드
+                </a>
+            </li>
+                </ul>
+            </div>        
+		</li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/Guidebook/Server_Guidebook.html" target="_self" data-navregexp="\.playblackdesert\.com\/Adventure\/Home[\/]?" class="left_menu_link">
+                <span class="menu_underline">서버 가이드북</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">가이드북 목록</a>
+            <div class="sub_menu">
+                <ul>
+            <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/Guidebook/Server_Guidebook.html" data-navregexp="\.playblackdesert\.com(\/Adventure\/$|\/Adventure$|\/Adventure[\?]|\/Adventure\/Home[\/]?)" target="_self" class="">
+                    신규 모험자 가이드
+                </a>
+            </li>
+
+                </ul>
+            </div>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="" target="_self" data-navregexp="\.playblackdesert\.com\/pay[\/]?" class="left_menu_link">
+                <span class="menu_underline">생활 가이드북</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">생활 가이드북 목록</a>
+            <div class="sub_menu">
+                <ul>
+        	<li id="s01">
+                <a href="" data-navregexp="\.playblackdesert\.com(\/Pay\/$|\/Pay$|\/Pay\/Home[\/]?)" target="_self" class="">
+                    조련 가이드
+                </a>
+            </li>
+            <li id="s02">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Shop\/Coupon[\/]?" target="_self" class="">
+                    낚시 가이드
+                </a>
+            </li>
+            <li id="s03">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    채집 가이드
+                </a>
+            <li id="s04">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    재배 가이드
+                </a>
+            <li id="s05">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    수렵 가이드
+                </a>
+            <li id="s06">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    요리 가이드
+                </a>
+            <li id="s07">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    연금 가이드
+                </a>
+            </li>
+                </ul>
+            </div>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/Dow/Dow.html" target="_self" data-navregexp="\.playblackdesert\.com\/data\/down[\/]?" class="left_menu_link">
+                <span class="menu_underline">다운로드</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">다운로드</a>
+            <div class="sub_menu">
+                <ul>
+            <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow.html" data-navregexp="\.playblackdesert\.com\/Data\/Down[\/]?" target="_self" class="">
+                    클라이언트
+                </a>
+            </li>
+            <li id="s02">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_installation_guide.html" data-navregexp="\.playblackdesert\.com\/Data\/Video[\/]?" target="_self" class="">
+                    설치 가이드
+                </a>
+            </li>
+            <li id="s03">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_error.html" data-navregexp="\.playblackdesert\.com\/Data\/Wallpaper[\/]?" target="_self" class="">
+                    오류 해결법
+                </a>
+            </li>
+                </ul>
+            </div>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://apps.weingchicken.com/bd/makings" target="_blank" data-navregexp="\.playblackdesert\.com\/Support\/Start[\/]?" class="left_menu_link">
+                <span class="menu_underline">제작노트</span>
+                    <span class="sp_comm"></span>
+            </a>
+		</ul>
+</header>
+
+<script>
+    (function () {
+        var menu = document.querySelectorAll('.header .sub_menu a') || [];
+
+        window.addEventListener('load', function () {
+            if (!menu) {
+                return;
+            }
+            for (var i = 0; i < menu.length; i++) {
+                if (!isUrlSelected(menu[i].getAttribute('data-navregexp'))) {
+                    continue;
+                }
+                menu[i].classList.add('active');
+                menu[i].offsetParent && menu[i].offsetParent.previousElementSibling.classList.add('active');
+                break;
+            }
+        });
+
+        function isUrlSelected(navigationRegExp) {
+            var re = new RegExp(navigationRegExp, 'i');
+            return re.test(location.href);
+        }
+    })();
+</script>
+
+<div class="container wiki">
+    <div class="wiki_guide_wrap">
+        <h2>투발라 아이템을 강화해보자</h2>
+        <div class="content_wrap">
+            
+
+
+<aside class="aside_wrap js-menuFixed">
+    <div class="box_search_top">
+
+
+
+    </div>
+    
+    <div class="menu_wrap use_banner">
+        <ul class="inner js-asideMenu">
+                <li class="list_wrap show active">
+                    <h2 class="list_title">서버 가이드<span class="icn_list_arrow"><i></i><i></i></span></h2>
+                    <ul class="list_item_wrap">
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/Server_Guidebook.html" class="categoryTab">서버 가이드</a></li>
+                    </ul>
+                    <li class="list_wrap show active">
+                    <h2 class="list_title">초반 진행순서<span class="icn_list_arrow"><i></i><i></i></span></h2>
+                    <ul class="list_item_wrap">
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/character_generation.html" class="categoryTab">시즌 캐릭터를 생성하자</a></li>
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/black_spirit_item.html" class="categoryTab">흑정령 에게 아이템을 받자</a></li>
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/Main_quest_progress.html" class="categoryTab">메인퀘스트를 진행하자</a></li>
+                    </ul>
+                </li>
+                    <li class="list_wrap show active">
+                    <h2 class="list_title">후반 진행순서<span class="icn_list_arrow"><i></i><i></i></span></h2>
+                    <ul class="list_item_wrap">
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/season_pass.html" class="categoryTab">시즌 패스를 깨보자!</a></li>
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/strengthening_the_naru.html" class="categoryTab">나루 아이템을 강화해보자</a></li>
+                            <li class="list_item"><a href="https://cloud0fox.github.io/aceracede/Guidebook/early/Tuvala_Reinforcement.html" class="categoryTab active">투발라 아이템을 강화해보자</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">똑같은 레벨 캐릭터 획득! 푸가르 초시계</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">시즌을 졸업을 해보자</a></li>
+                    </ul>
+                </li>
+                <li class="list_wrap show active">
+                    <h2 class="list_title">졸업후 가이드<span class="icn_list_arrow"><i></i><i></i></span></h2>
+                    <ul class="list_item_wrap">
+                            <li class="list_item"><a href="" class="categoryTab">투발라 무기 방어구를 보스템으로 교환하자</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">교환한 유 보스템 을 동으로 확정 강화를 하자</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">"검은별" 주무기,각성무기 를 만들어 보자</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">카프라스의 돌파</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">동 보스 갑옷을 만들고 죽은신의 갑옷을 만들자</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">특정 악세를 "동" 으로 확정강화 해보자</a></li>
+                    </ul>
+                </li>
+                <li class="list_wrap show active">
+                    <h2 class="list_title">졸업후 보물작<span class="icn_list_arrow"><i></i><i></i></span></h2>
+                    <ul class="list_item_wrap">
+                            <li class="list_item"><a href="" class="categoryTab">오네트 오도어</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">고고학자의 지도</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">라피 베드마운틴의 개량형 나침판</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">에벤루스의 놀</a></li>
+                            <li class="list_item"><a href="" class="categoryTab">거상의 반지</a></li>
+                    </ul>
+        </ul>
+    </div>
+</aside>
+<article class="content js-wikiContent">
+    <div class="breadcrumb">
+        <ul>
+            <li><span>서버 가이드</span></li>
+            <li><span>투발라 아이템을 강화해보자</span></li>
+        </ul>
+    </div>
+    <div class="detail_wrap">
+        <div class="inner">
+                <h3 class="head_title">
+                    투발라 아이템을 강화해보자
+                </h3>
+            
+            <div class="share_wrap">
+                <div class="btn_share_wrap">
+                </div>
+            </div>
+            <div class="wiki_detail_contents"><p>- 본 가이드는 신규 모험가의 성장에 유리한 ‘<span style="color: #2880b9;">추천 서버 및 시즌 캐릭터</span>’를 기준으로 제작되었습니다.</p>
+<div class="mceTmpl">
+	<div class="box_contents gray">
+	<p><strong>시즌 캐릭터란</strong><br>'PrimeBD 서버' 시즌 캐릭터는 는 초보 모험가도 검은사막에 쉽게 적응할 수 있도록 성장에 초점을 둔 특별한 캐릭터 입니다.</p>
+	<p>시즌 이 진행 중인 기간동안 생성 할수 있으며, '시즌 캐릭터'를 생성하여 플레이할 수 있습니다.</p>
+	<p>시즌 캐릭터는 일반 서버에서도 플레이 할 수 있으며, 추후 '졸업'이나 '시즌 서버 종료' 시 일반 캐릭터로 전환되며 일반 캐릭터와 동일하게 플레이를 할 수 있습니다.</p>
+</div>
+<div class="mceTmpl">
+		<div class="table_contents">
+		<div class="inner">
+		<h3>목차</h3>
+	<ol>
+		<li><a href="#1">1. 투발라 장비는 무엇인가?</a></li>
+		<li><a href="#2">2. 시블스? 제마블? 투발라광석</a></li>
+	<li>
+</li>
+		<li><a href="#3">3. 투발라 장비를 만드는법</a></li>
+		<li><a href="#4">4. 투발라 장비 강화 가이드</a></li>
+		<li><a href="#5">5. 푸가르에게 스택 퀘스트를 받자</a></li>
+</ol>
+
+</div>
+</div>
+<div id="1" class="mceTmpl"><br>
+	<h2 class="header_title black">1. 투발라 장비는 무엇인가?</h2>
+	<p><span style="letter-spacing: 0px;">시즌패스의 퀘스트 겸 졸업후 보스장비로 바꾸기 위한 장비입니다<br>시간이 스며든 블랙스톤으로 강화 합니다<br></span></p>
+		<div style="text-align: left;"><span style="letter-spacing: 0px;"><strong></strong><br><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/t2NFR4X/image.png" alt="" width=""></strong></span></div>
+		<div style="text-align: center;"><span style="letter-spacing: 0px;"><small>▲ 투발라 장비</small></span><strong><br><br><br></strong></div>
+<div id="2" class="mceTmpl"><br>
+	<h2 class="header_title black">2. 시간이 스며든 블랙스톤, 제련된 마력의 블랙스톤, 투발라 광석</h2>
+	<p><span style="letter-spacing: 0px;">시간이 스며든 블랙스톤<br>투발라 장비를 강화하는 특별한 블랙스톤<br>기존 장비와 다르게 투발라 장비는 1강부터 동(V) 단계까지 이재료를 사용하여 강화합니다.<br>조언(스택)으로 바꾸거나, 다른 재료도 바꿀 수 있어 여러모로 모아두면 좋은 재료<br><br>제련된 마력의 블랙스톤<br>장 광 고 단계에서 사용시 확정강화(100%)가 가능한 재료입니다<br>사용시 최대 내구도가 깍임으로 최대 내구도 수리로 다시 복구 하시면 됩니다<br><br>투발라 광석<br>투발라 장비 수리에 들어가는 재료 겸 투발라 장비로 만들수 있는 교환템</span></p><br>
+		투발라 강화 재료들은 56레벨 이상 사냥터에 드랍합니다or(O) 반복 의뢰에 더 강해지는 투발라 주간퀘스트 클리어할시 획득 가능합니다 <br>(또는 특정사냥터 250마리,500마리 잡기 퀘스트도 있습니다)<br><br>
+		<p style="text-align: center;">
+			<img style="width:30%" src="https://i.ibb.co/2FWNFzZ/image.png">
+			<img style="width:30%" src="https://i.ibb.co/VjYfZb8/image.png">
+			<img style="width:30%" src="https://i.ibb.co/PYgY65f/image.png">
+		</p>
+</div>
+		<div style="text-align: center;"><span style="letter-spacing: 0px;"><small>▲ 시작의 블랙스톤 , 제련된 마역의 블랙스톤 , 투발라 광석</small></span><strong><br><br><br></strong></div>
+<div id="3" class="mceTmpl"><br>
+	<h2 class="header_title black">3. 투발라 장비를 만드는법</h2>
+	<p><span style="letter-spacing: 0px;">투발라 장비 획득의 경우 다음의 2가지 방법이 있습니다.<br>- 나루 (동) 장비를 푸가르에게 교환을 하시면 (장)투발라 장비로 교환해줍니다<br>- 또는 마을 대장장이 에서 교환이 가능합니다<br>투발라 (동) 악세서리는 일반 악세서리 (고)등급 정도 입니다.</span></p>
+		<div style="text-align: left;"><span style="letter-spacing: 0px;"><strong></strong><br><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/4jnZ5Js/image.png" alt="" width="100%"></strong></span></div>
+		<div style="text-align: center;"><span style="letter-spacing: 0px;"><small>▲ 마을 대장장이 에서 교환이 가능합니다 </small></span><strong><br><br><br></strong></div>
+<div id="4" class="mceTmpl"><br>
+	<h2 class="header_title black">4. 투발라 장비 강화 가이드</h2>
+	<p><span style="letter-spacing: 0px;">투발라 장비의 추천 강화 스택은 다음과 같습니다.<br>(1~15강은 제외하였습니다.)<br>흑정령을 불러서 강화를 하시면 됩니다<br>광 > 고 가실때는 (제련된 마력의 블랙스톤 (100% 강화성공) 쓰시면 좀더 편한 강화를 할수 있습니다 )</span></p><br>
+<body>	  
+	<style>
+	th,td {padding:10px;}
+	</style>
+	<table border="1" style="text-align: center;" style="table-layout:fixed" style="width:450px;table-layout:fixed;word-break:break-all;height:auto">
+	<tr>
+		<th>강화 단계</th>
+		<th>장(I) > 광(II)</th>
+		<th>광(II) > 고(III)</th>
+		<th>고(III) > 유(IV)</th>
+		<th>유(IV) > 동(V)</th>
+	</tr>
+	<tr>
+		<td>추천 스택</td>
+		<td>20 스택</td>
+		<td>30 스택</td>
+		<td>40 스택</td>
+		<td>60 스택</td>
+	</tr>
+	<tr>
+		<td>강화 확률</td>
+		<td>60%</td>
+		<td>60%</td>
+		<td>35%</td>
+		<td>35%</td>
+	</tr>
+	<tr>
+		<td>중단 지점</td>
+		<td>30 스택</td>
+		<td>40 스택</td>
+		<td>60 스택</td>
+		<td>80~100 스택</td>
+	</tr>
+	<tr>
+		<td>크론석 소모량</td>
+		<td></td>
+		<td>25개</td>
+		<td>75개</td>
+		<td>165개</td>
+	</tr>
+	</table>
+</body>
+		<div style="text-align: center;"><span style="letter-spacing: 0px;"><small>▲ 추천 스택으로 강화 하시면 좀더 편하실겁니다 <br>(크론석으로 강화 하실려면 4일차 출석체크에 2000개 크론석 주니 그때 하시는것도 좋은 방법입니다)</small></span><strong><br><br><br></strong></div>
+<div id="5" class="mceTmpl"><br>
+	<h2 class="header_title black">5. 푸가르에게 스택 퀘스트를 받자</h2>
+	<p><span style="letter-spacing: 0px;">고 , 유 투발라 방어구,무기를 만드셧나면 푸가르 의뢰를 받아줍시다 (악세서리는 안됩니다)<br>[강화] 의뢰들 입니다<br> 모든 조건을 확인하셧으면 장비를 착용하고 푸가르에게 의뢰 완료를 하시면됩니다</span></p>
+		<div style="text-align: left;"><span style="letter-spacing: 0px;"><strong></strong><br><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/f0xHC3m/image.png" alt="" width="100%"></strong></span></div>
+		<div style="text-align: center;"><span style="letter-spacing: 0px;"><small>▲ 푸가르에서 의뢰를 받으시면됩니다 (시즌캐릭터만 됩니다)</small></span><strong><br><br><br></strong></div>	
+</div>
+
+    </div>
+    
+    <script>
+        var _format = 'yyyy.MM.dd';
+    </script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/common/language/bdo/languagepack.ko-kr.js?v=637895341527022090"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/common/common.js?v=637895341527022090"></script>
+    
+    
+    <script>
+        $(document).ready(function () {
+            
+        });
+    </script>
+
+    <script src="https://s1.pearlcdn.com/KR/contents/js/lib/owl.carousel.min.js"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/portal/gameinfo.js?v=637895341527022090"></script>
+    <script>
+        $(document).ready(function () {
+            _abyss.gameinfo.wikiInit();
+        });
+    </script>
+
+    
+
+
+
+                 <!-- down_floating_USE -->
+            </div>
+        <script>
+            $(document).ready(function () {
+                try {
+$(function(){
+    $('.top_data_wrap.download h2').after('<p class="data_desc">광활한 오픈월드로 지금 떠나보세요</p>');
+});;                    _abyss.initFloatingBanner();
+                }
+                catch (e) {
+                    console.log(e);
+                }
+            });
+        </script>
+            <style>
+                .top_data_wrap .data_desc { padding: 0px 0 50px 0; font-size: 28px; color: #000; text-align: center; }
+.top_data_wrap .data_desc .data_desc_color { color: #080383; }
+
+@media screen and (max-width: 1024px){
+    .top_data_wrap .data_desc { padding: 0 0 2.2222rem; line-height: 1.346; font-size: 1.4222rem; }.
+}
+            </style>
+            <div class="floatingBanner  hide" data-position="" data-orderby="0" data-move="body">
+                <div style="display:none;"></div>
+            </div>
+        <script>
+            $(document).ready(function () {
+                try {
+$('nav .node1 a[href*="topicType=0"]').addClass('active_menu');;                    _abyss.initFloatingBanner();
+                }
+                catch (e) {
+                    console.log(e);
+                }
+            });
+        </script>
+            <style>
+                .header_wrap nav > ul > li .sub_menu > ul > li > a.active_menu { 
+    color: #fbb251;
+}
+
+
+            </style>
+
+
+    
+    
+
+
+
+
+
+</body>
+</html>
