@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ko-KR" xmlns:fb="http://ogp.me/ns/fb#">
+<head prefix="og: http://ogp.me/ns# object: http://ogp.me/ns/object#">
+    
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>클라이언트 | [PrimeBD]</title>
+<meta name="keywords" content="클라이언트 | [PrimeBD]">
+<meta name="description" content="클라이언트 | [PrimeBD]">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="클라이언트 | [PrimeBD]" />
+<meta property="og:description" content="검은사막 [PrimeBD] | 클라이언트 다운을받아봅시다." />
+<meta property="og:url" />
+<meta property="og:image" content="https://i.ibb.co/XybXXvn/image.png" />
+<meta property="og:image:width" content="0" />
+<meta property="og:image:height" content="0" />
+
+<meta http-equiv="content-language" content="ko" />
+
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="16x16">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="32x32">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="48x48">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="64x64">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="114x114">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="128x128">
+<link rel="shortcut icon" href="https://i.ibb.co/KznhbS1/darkfoxlogo.png" type="image/x-icon" sizes="256x256">
+
+<link rel="alternate" hreflang="ko" href="https://www.kr.playblackdesert.com/ko-KR" />
+<link rel="alternate" hreflang="en" href="https://www.kr.playblackdesert.com/en-US" />
+<link rel="alternate" hreflang="de" href="https://www.kr.playblackdesert.com/de-DE" />
+<link rel="alternate" hreflang="fr" href="https://www.kr.playblackdesert.com/fr-FR" />
+<link rel="alternate" hreflang="es" href="https://www.kr.playblackdesert.com/es-ES" />
+
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+
+
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/global_static/font/web/font.css?v=637895341527022090" />
+    
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/common/reset.css?v=637895341527022090" />
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/common/common.css?v=637895341527022090" />
+
+
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/lib/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://s1.pearlcdn.com/KR/contents/css/portal/data.css?v=637895341527022090" />
+    
+
+
+    
+	
+<script>
+    var _abyss = window._abyss = window._abyss || {};
+    _abyss.api = {
+        Http: {
+            Account: "https://account.pearlabyss.com/ko-KR"
+            , AccountJoin: "/Login/Pearlabyss?_returnUrl=https://account.pearlabyss.com/ko-KR/Member/Join"
+            , AccountChange: "/Login/Pearlabyss?_returnUrl=https://account.pearlabyss.com/ko-KR/Member/OauthChange"
+            , Portal: ""
+            , Payment : "https://payment.kr.playblackdesert.com/ko-KR"
+            , authCookieDoamin: "kr.playblackdesert.com"
+            , FingerApi : "/Api/Finger"
+        }
+        , isLogin: false
+        , cultureCode: "ko-KR"
+        , serviceType: "kr"
+    };
+</script>
+
+<script src="https://s1.pearlcdn.com/KR/contents/js/lib/sha512.min.js"></script>
+<script src="https://s1.pearlcdn.com/KR/contents/js/lib/fingerprint2.min.js"></script>
+<script>
+    var _fingerResult = '';
+    var _fingerOptions = {
+        fonts: { extendedJsFonts: true },
+        extraComponents: [
+            {
+                key: 'networkConnection',
+                getData: function (done) {
+                    var networkConnection = !!navigator ? !!navigator.connection ? navigator.connection : '' : '';
+                    done(networkConnection);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'pixelDepth',
+                getData: function (done) {
+                    var pixelDepth = !!screen ? !!screen.pixelDepth ? screen.pixelDepth : '' : '';
+                    done(pixelDepth);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'javaEnabled',
+                getData: function (done) {
+                    var javaEnabled = !!navigator ? !!navigator.javaEnabled() ? navigator.javaEnabled() : false : false;
+                    done(javaEnabled);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'maxTouchPoints',
+                getData: function (done) {
+                    var maxTouchPoints = !!navigator ? !!navigator.maxTouchPoints ? navigator.maxTouchPoints : 1000 : 1000;
+                    done(maxTouchPoints);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'keyboardLayout',
+                getData: function (done) {
+                    !!navigator ? !!navigator.keyboard ? !!navigator.keyboard.getLayoutMap() ? navigator.keyboard.getLayoutMap().then(function (key) { done(key); }) : done(0) : done(0) : done(0);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'gamePadConnection',
+                getData: function (done) {
+                    var gamePadConnection = !!navigator ? !!navigator.getGamepads() ? navigator.getGamepads() : [] : [];
+                    done(gamePadConnection);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'preferredLanguages',
+                getData: function (done) {
+                    var preferredLanguages = !!navigator ? !!navigator.languages ? navigator.languages : '' : '';
+                    done(preferredLanguages);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'Vibrate',
+                getData: function (done) {
+                    var isVibrate = !!navigator ? !!navigator.vibrate(1) ? navigator.vibrate(1) : false : false;
+                    done(isVibrate);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'ServiceWorker',
+                getData: function (done) {
+                    var isServiceWorker = !!navigator ? !!navigator.serviceWorker ? navigator.serviceWorker : '' : '';
+                    done(isServiceWorker);
+                },
+                pauseBefore: false
+            },
+            {
+                key: 'ClientHintsData',
+                getData: function (done) {
+                    navigator.userAgentData.getHighEntropyValues([
+                        "platform",
+                        "platformVersion",
+                        "architecture",
+                        "model",
+                        "uaFullVersion",
+                        "fullVersionList"
+                    ]).then(function (res) {
+                        done(res);
+                    });
+                },
+                pauseBefore: false
+            },
+        ]
+        //excludes: { screenResolution: true, colorDepth: true, availableScreenResolution: true, touchSupport: true }
+    }
+    var postAjax = function (url, data, success) {
+        var params = typeof data == 'string' ? data : Object.keys(data).map(function (k) { return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }).join('&');
+        var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        xhr.open('POST', url);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState > 3 && xhr.status == 200) { success(xhr.responseText); }
+        };
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(params);
+        return xhr;
+    }
+
+    var fingerPrinting = function () {
+        try {
+            Fingerprint2.get(_fingerOptions, function (components) {
+                _fingerResult = hex_sha512(components.map(function (pair) { return pair.value }).join()).toString();
+                var filteredComponents = components.filter(function (pair) { return pair.key !== 'canvas' && pair.key !== 'webgl' });
+                var data = { "_fingerResult": _fingerResult, "_fingerComponents": filteredComponents.map(function (pair) { return pair.key + ' : ' + pair.value }).join() }
+                postAjax(_abyss.api.Http.FingerApi, data, function () {});
+            });
+        } catch(error) {
+            console.log(error);
+        }
+    }
+    if (window.requestIdleCallback) {
+        requestIdleCallback(function () {
+            fingerPrinting();
+        })
+    } else {
+        setTimeout(function () {
+            fingerPrinting();
+        }, 500)
+    }
+</script>
+
+
+        <script data-cookieconsent="ignore">
+        var _trackingCallback = function (result) {
+            if (-1 === result.resultCode) {
+                console.warn('Send PATracking Error');
+            }
+        };
+
+        (function () {
+            var isEmpty = function (data) {
+                var result = true;
+                try {
+                    data = data || null || undefined || '';
+
+                    if (typeof data == 'object') {
+                        data = data.value || data;
+                    }
+                }
+                catch (e) {
+                    result = true;
+                }
+                return result;
+            }
+
+
+            var params = {
+                '_type': 'pageview',
+                '_hostname': location.host,
+                '_path': location.pathname + location.search,
+                '_title' : document.title
+            };
+
+            var paramsStringfy = Object.keys(params).map(function(key){
+                return encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
+            }).join('&');
+
+            var trackCallback = function (data) {
+                //console.log(data);
+            }
+
+            // refer override
+            if (!isEmpty(document.referrer)) {
+                params['_referer'] = document.referrer;
+            }
+
+            try {
+                var script = document.createElement('script');
+                script.src = 'https://www.kr.playblackdesert.com/Api/SendGATracking?callback=_trackingCallback&' + paramsStringfy;
+                document.getElementsByTagName('head')[0].appendChild(script);
+            } catch (e) {
+                console.warn('Tracking Error');
+            }
+
+
+        })();
+
+        </script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158717427-3"></script>
+            <script>
+                (function () {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-158717427-3');
+                })();
+            </script>
+            <script data-cookieconsent="ignore">
+            var _trackingGACallback = function (result) {
+                if (-1 === result.resultCode) {
+                    console.warn('Send PATracking Error');
+                }
+            };
+
+            (function () {
+                var isEmpty = function (data) {
+                    var result = true;
+                    try {
+                        data = data || null || undefined || '';
+
+                        if (typeof data == 'object') {
+                            data = data.value || data;
+                        }
+                    }
+                    catch (e) {
+                        result = true;
+                    }
+                    return result;
+                }
+
+                if (location.host.indexOf('kr.playblackdesert.com') < 0) {
+                    return;
+                }
+
+                var params = {
+                    'v' : '1',
+                    't' : 'pageview',
+                    'tid' : 'UA-158717427-4',
+                    'cid' : 'RD6G18SALJUX4TC59RT6',
+                    'dh' : location.host,
+                    'dp' : location.pathname + location.search,
+                    'dt' : document.title,
+                    'ua' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53',
+                    'cs' : '',
+                    'cm' : '',
+                    'cn' : '',
+                    'cc' : '',
+                    'uip' : '175.113.15.98'
+                };
+
+                // refer override
+                if (!isEmpty(document.referrer)) {
+                    params['dr'] = document.referrer;
+                }
+
+                var paramsStringfy = Object.keys(params).map(function(key){
+                    return encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
+                }).join('&');
+
+
+                try {
+                    var xhttp = new XMLHttpRequest();
+
+                    xhttp.open('POST', 'https://www.google-analytics.com/collect?v=1&tid=UA-158717427-4', true);
+                    xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                    xhttp.send(paramsStringfy);
+
+                } catch (e) {
+                    console.warn('AJAX Tracking Error');
+                }
+            })();
+            </script>
+
+
+
+    <!-- Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
+        <!-- Google Tag manager-->
+        <script >
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WH9RPJN');
+        </script>
+        <!-- END Google Tag manager-->
+
+
+</head>
+<body class="bdo  ">
+
+
+
+
+        <!-- Google Tag Manager (noscript) -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header_wrap">
+    <div class="header">
+        <h1 class="logo">
+            <a href="https://cloud0fox.github.io/aceracede/Index.html">
+                <img src="https://i.ibb.co/XybXXvn/image.png" alt="검은사막 리마스터" width="150px" height="50px">
+            </a>
+        </h1>
+        <button type="button" class="btn_all_menu">
+            <i class="blind">전체메뉴</i>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav>
+            <a href="https://cloud0fox.github.io/aceracede/Index.html" class="btn_mob_logo bdo_kr">
+                <img src="https://i.ibb.co/XybXXvn/image.png" alt="검은사막 리마스터" width="150px" height="50px">
+            </a>
+            <ul class="header_menu_wrap">
+                        <li class="node1 js-headerLeftMenus visible">
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/game_introduction/Game_Features.html" target="_self" data-navregexp="\.playblackdesert\.com\/gameinfo\/feature[\/]?" class="left_menu_link">
+                <span class="menu_underline">게임 소개</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">게임 소개</a>
+            <div class="sub_menu">
+                <ul>
+                                <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/game_introduction/Game_Features.html" data-navregexp="\.playblackdesert\.com\/gameinfo\/feature[\/]?" target="_self" class="">
+                    게임 특징
+                </a>
+            </li>
+            <li id="s02">
+                <a href="https://cloud0fox.github.io/aceracede/game_introduction/Adventurer_Guide.html" data-navregexp="\.playblackdesert\.com\/wiki[\/]?" target="_self" class="">
+                    모험가 가이드
+                </a>
+            </li>
+                </ul>
+            </div>        
+		</li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/Guidebook/Server_Guidebook.html" target="_self" data-navregexp="\.playblackdesert\.com\/Adventure\/Home[\/]?" class="left_menu_link">
+                <span class="menu_underline">서버 가이드북</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">가이드북 목록</a>
+            <div class="sub_menu">
+                <ul>
+            <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/Guidebook/Server_Guidebook.html" data-navregexp="\.playblackdesert\.com(\/Adventure\/$|\/Adventure$|\/Adventure[\?]|\/Adventure\/Home[\/]?)" target="_self" class="">
+                    신규 모험자 가이드
+                </a>
+            </li>
+
+                </ul>
+            </div>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="" target="_self" data-navregexp="\.playblackdesert\.com\/pay[\/]?" class="left_menu_link">
+                <span class="menu_underline">생활 가이드북</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">생활 가이드북 목록</a>
+            <div class="sub_menu">
+                <ul>
+        	<li id="s01">
+                <a href="" data-navregexp="\.playblackdesert\.com(\/Pay\/$|\/Pay$|\/Pay\/Home[\/]?)" target="_self" class="">
+                    조련 가이드
+                </a>
+            </li>
+            <li id="s02">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Shop\/Coupon[\/]?" target="_self" class="">
+                    낚시 가이드
+                </a>
+            </li>
+            <li id="s03">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    채집 가이드
+                </a>
+            <li id="s04">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    재배 가이드
+                </a>
+            <li id="s05">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    수렵 가이드
+                </a>
+            <li id="s06">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    요리 가이드
+                </a>
+            <li id="s07">
+                <a href="" data-navregexp="\.playblackdesert\.com\/Pay\/WebShop[\/]?" target="_self" class="">
+                    연금 가이드
+                </a>
+            </li>
+                </ul>
+            </div>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://cloud0fox.github.io/aceracede/Dow/Dow.html" target="_self" data-navregexp="\.playblackdesert\.com\/data\/down[\/]?" class="left_menu_link">
+                <span class="menu_underline">다운로드</span>
+            </a>
+            <a href="javascript:void(0);" class="mob_link">다운로드</a>
+            <div class="sub_menu">
+                <ul>
+            <li id="s01">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow.html" data-navregexp="\.playblackdesert\.com\/Data\/Down[\/]?" target="_self" class="">
+                    클라이언트
+                </a>
+            </li>
+            <li id="s02">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_installation_guide.html" data-navregexp="\.playblackdesert\.com\/Data\/Video[\/]?" target="_self" class="">
+                    설치 가이드
+                </a>
+            </li>
+            <li id="s03">
+                <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_error.html" data-navregexp="\.playblackdesert\.com\/Data\/Wallpaper[\/]?" target="_self" class="">
+                    오류 해결법
+                </a>
+        </li>
+        <li class="node1 js-headerLeftMenus visible">
+            <a href="https://apps.weingchicken.com/bd/makings" target="_blank" data-navregexp="\.playblackdesert\.com\/Support\/Start[\/]?" class="left_menu_link">
+                <span class="menu_underline">제작노트</span>
+                    <span class="sp_comm"></span>
+            </a>
+		</ul>
+</header>
+
+<script>
+    (function () {
+        var menu = document.querySelectorAll('.header .sub_menu a') || [];
+
+        window.addEventListener('load', function () {
+            if (!menu) {
+                return;
+            }
+            for (var i = 0; i < menu.length; i++) {
+                if (!isUrlSelected(menu[i].getAttribute('data-navregexp'))) {
+                    continue;
+                }
+                menu[i].classList.add('active');
+                menu[i].offsetParent && menu[i].offsetParent.previousElementSibling.classList.add('active');
+                break;
+            }
+        });
+
+        function isUrlSelected(navigationRegExp) {
+            var re = new RegExp(navigationRegExp, 'i');
+            return re.test(location.href);
+        }
+    })();
+</script>
+
+
+
+
+<div class="container download">
+    <div class="top_data_wrap download">
+        <div class="top_data_background_wrap">
+            <div class="top_data_back background_dragan"></div>
+            <div class="top_data_back background_village"></div>
+            <div class="top_data_back background_ocean"></div>
+        </div>
+        <section class="top_data_content">
+            <h2>
+                검은사막, 
+                <span class="h2_sub">모험의 시작</span>
+            </h2>
+            <div class="down_floating_area"></div>
+            <div class="btn_wrap">
+                <a href="https://drive.google.com/file/d/1RY9aBBLWlWjgknDzbgQiWgBo6lU21K1T/view" id="downloadBtn" class="btn btn_blue btn_download" download>
+                    <span>클라이언트 다운로드</span>
+                    <i class="icon icn_download"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1Ecrin8MZnpqR8l9J9-bglPnGtTeOfJ-9/view" target="_blank" id="geforceBtn" class="btn btn_blue btn_geforce_now">
+                    <span class="txt_title">한글패치 다운로드</span>
+                    <i class="icon icn_geforce_now"></i>
+                </a>
+            </div>
+        </section>
+        <div class="down_etc_links_wrap">
+            <ul class="down_etc_links">
+                <li class="down_etc_link">
+                    <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_installation_guide.html" class="icn_guide"><span>설치 가이드</span></a>
+                </li>
+                <li class="down_etc_link">
+                    <a href="https://discord.com/invite/KbKJknFEFJ" target="_blank" class="icn_community"><span>공식 디스코드</span></a>
+                </li>
+                <li class="down_etc_link">
+                    <a href="https://discord.com/invite/frUcHdPbS5" target="_blank" class="icn_guide"><span>길드 디스코드</span></a>
+                </li>
+                <li class="down_etc_link">
+                    <a href="https://cloud0fox.github.io/aceracede/Dow/Dow_error.html" class="icn_center"><span>오류 해결방법</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <article class="content">
+        <div class="client_wrap">
+                <!-- 최대 5개 노출-->
+	<title>CSS Lists</title>
+	<style>
+		table, th, td { border: 0px solid orange; }
+	</style>
+
+<body>
+
+	<h1><CENTER>구글 다운로드 외 링크</CENTER></h1>
+	<br>
+	<div style="position: absolute; left: 20px; top: 250px;">
+</div>
+	<table>
+		<tr>
+			<td><button type="button" class="btm_image" id="img_btn"><a href="https://cdn.discordapp.com/attachments/916803406344114197/959932734501945354/PrimeBD_Corsair.zip.torrent" height="5" width="10" target="_blank"><img  src="https://i.ibb.co/ccKtfY0/004.png" style="max-width:100%; height:auto;"></button></td>
+			<td><button type="button" class="btm_image" id="img_btn"><a href="https://1fichier.com/?nz8e3wim1wvsknh8mc57" height="5" width="10" target="_blank"><img  src="https://i.ibb.co/w4SL443/005.png" style="max-width:100%; height:auto;"></button></td>	
+			<td><button type="button" class="btm_image" id="img_btn"><a href="http://primebd.to/PrimeBD_Corsair.zip" height="5" width="10" target="_blank"><img  src="https://i.ibb.co/5W33k5t/006.png" style="max-width:100%; height:auto;"></button></td>
+		</tr>
+</div>
+	</table>
+</div>
+            <div class="box_system_require">
+                <h3>검은사막 시스템 사양</h3>
+                <div class="system_require">
+                    <ul class="cell left_head">
+                        <li class="thead"><span>항목</span></li>
+                        <li><span>프로세서</span></li>
+                        <li><span>하드디스크</span></li>
+                        <li><span>메모리</span></li>
+                        <li><span>그래픽카드</span></li>
+                        <li><span>운영체제</span></li>
+                    </ul>
+                    <ul class="cell">
+                        <li class="thead"><span>최소 사양</span><span>권장 사양</span></li>
+                        <li><span>Intel Core i3</span><span>Intel Core i5</span></li>
+                        <li><span class="colspan">41GB 이상</span></li>
+                        <li><span>4GB RAM</span><span>8GB RAM</span></li>
+                        <li><span>GTS 250 <br>GeForce 9800 GTX<br>Radeon HD 3870 X2</span><span>NVIDIA GTX 970<br>AMD RX 480</span></li>
+                        <li><span class="colspan">32비트 또는 64비트의 Win10</span></li>
+                    </ul>
+                    <ul class="cell left_head only-m">
+                        <li class="thead"><span>항목</span></li>
+                        <li><span>프로세서</span></li>
+                        <li><span>하드디스크</span></li>
+                        <li><span>메모리</span></li>
+                        <li><span>그래픽카드</span></li>
+                        <li><span>운영체제</span></li>
+                    </ul>
+                    <ul class="cell">
+                        <li class="thead"><span>리마스터 사양</span><span>울트라모드 사양</span></li>
+                        <li><span>Intel Core i7-8700</span><span>Intel Core i7-8700K</span></li>
+                        <li><span class="colspan">41GB 이상</span></li>
+                        <li><span>16GB RAM</span><span>32GB RAM</span></li>
+                        <li><span>GeForce GTX1070 8GB</span><span>GeForce GTX1080ti 11GB</span></li>
+                        <li><span class="colspan">32비트 또는 64비트의 Win10</span></li>
+                    </ul>
+                </div>
+                <ul class="bullet_list icon icn_list01 fs14">
+                    <li>해상도 및 게임 옵션 설정 변경에 따라 게임을 더욱 쾌적하게 플레이할 수 있습니다.</li>
+                    <li>게임의 정상적인 설치 및 실행을 위해 운영체제의 최신 서비스팩 설치를 권장합니다.</li>
+                    <li>64비트 운영 체제를 사용하시면 더욱 향상된 퀄리티의 게임을 즐길 수 있습니다.</li>
+                    <li>DirectX 11 그래픽 옵션을 적용할 경우 NVIDIA GeForce GTX 660 이상의 그래픽카드를 권장합니다.</li>
+                    <li>검은사막은 Full HD(1920 x 1080) 해상도에 최적화 되어 있습니다.</li>
+                </ul>
+            </div>
+            <div class="system_require_wrap">
+                <h3>그래픽 드라이버 및 최신 버전</h3>
+                <table class="tbl_system pc">
+                    <caption>그래픽 드라이버 및 최신 버전</caption>
+                    <colgroup>
+                        <col style="width:50%;">
+                        <col style="width:50%;">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://s1.pearlcdn.com/KR/contents/img/portal/data/img_down_nvidia.png" alt="NVIDIA" /></td>
+                            <td><img src="https://s1.pearlcdn.com/KR/contents/img/portal/data/img_down_amd.png" alt="AMD" /></td>
+                        </tr>
+                        <tr class="bg_gray">
+                            <td><a href="https://www.nvidia.co.kr/Download/index.aspx?lang=kr" target="_blank" class="btn btn_black btn_graphic_card">지포스 드라이버</a></td>
+                            <td><a href="https://www.amd.com/ko/support" target="_blank" class="btn btn_black btn_graphic_card">라데온 드라이버</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="tbl_system mo">
+                    <caption>그래픽 드라이버 및 최신 버전</caption>
+                    <colgroup>
+                        <col style="width:50%;">
+                        <col style="width:50%;">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://s1.pearlcdn.com/KR/contents/img/portal/data/img_down_nvidia.png" alt="NVIDIA" /></td>
+                            <td><img src="https://s1.pearlcdn.com/KR/contents/img/portal/data/img_down_amd.png" alt="AMD" /></td>
+                        </tr>
+                        <tr class="bg_gray">
+                            <td><a href="https://www.nvidia.co.kr/Download/index.aspx?lang=kr" target="_blank" class="btn btn_black btn_graphic_card">지포스 드라이버</a></td>
+                            <td><a href="https://www.amd.com/ko/support" target="_blank" class="btn btn_black btn_graphic_card">라데온 드라이버</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul class="bullet_list icon icn_list01 fs14">
+                    <li>원활한 게임 운영을 위해 각 하드웨어의 드라이버가 최신 버전인지 확인하십시오.</li>
+                    <li>게임 내 전체 화면, 전체 창 화면, 창 화면으로 플레이 시에 프레임 영향은 하드웨어 제조사별로 상이할 수 있습니다.</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+    <script>
+        var _format = 'yyyy.MM.dd';
+    </script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/common/language/bdo/languagepack.ko-kr.js?v=637895341527022090"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/common/common.js?v=637895341527022090"></script>
+    
+    <script src="https://s1.pearlcdn.com/KR/contents/js/portal/data.js?v=637895341527022090"></script>
+    <script src="https://s1.pearlcdn.com/KR/contents/js/lib/owl.carousel.min.js"></script>
+    
+
+    
+
+
+            <div class="floatingBanner  hide" data-position="" data-orderby="99" data-move="body">
+                 <!-- down_floating_USE -->
+            </div>
+        <script>
+            $(document).ready(function () {
+                try {
+$(function(){
+    $('.top_data_wrap.download h2').after('<p class="data_desc">Aceracede 길드 다운로드 페이지</p>');
+});;                    _abyss.initFloatingBanner();
+                }
+                catch (e) {
+                    console.log(e);
+                }
+            });
+        </script>
+            <style>
+                .top_data_wrap .data_desc { padding: 0px 0 50px 0; font-size: 28px; color: #000; text-align: center; }
+.top_data_wrap .data_desc .data_desc_color { color: #080383; }
+
+@media screen and (max-width: 1024px){
+    .top_data_wrap .data_desc { padding: 0 0 2.2222rem; line-height: 1.346; font-size: 1.4222rem; }.
+}
+            </style>
+            <div class="floatingBanner  hide" data-position="" data-orderby="0" data-move="body">
+                <div style="display:none;"></div>
+            </div>
+        <script>
+            $(document).ready(function () {
+                try {
+$('nav .node1 a[href*="topicType=0"]').addClass('active_menu');;                    _abyss.initFloatingBanner();
+                }
+                catch (e) {
+                    console.log(e);
+                }
+            });
+        </script>
+            <style>
+                .header_wrap nav > ul > li .sub_menu > ul > li > a.active_menu { 
+    color: #fbb251;
+}
+
+
+            </style>
+
+
+    
+    
+
+
+
+</body>
+</html>
